@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* 
+#141125 */
+
+body{
+    font-family: "Orbitron", cursive;
+}
+
+.nav {
+    background-color: #141125;
+}
+.bn {
+    border: 0.1px solid blueviolet;
+}
+
+.carousel {
+    height: 88vh;
+    width: 100%;
+}
+.jumbo1{
+    background-image: url("/src/assets/jumbo4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center  center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 88vh;
+}
+.jumbo2{
+    background-image: url("/src/assets/jumbo2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center  center;
+    background-attachment: fixed;
+
+    height: 88vh;
+}
+.jumbo3{
+    background-image: url("/src/assets/main.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center  center;
+    background-attachment: fixed;
+
+    height: 88vh;
+}
+@media(max-width : 600px) {
+    .jumbo1 {
+        height: 100vh;
+    }
+    .jumbo2 {
+        height: 100vh;
+    }
+    .jumbo3 {
+        height: 100vh;
+    }
+}
+
+
+.contain{
+    width: 100%;
+    backdrop-filter: blur(2px);
+    height: 88vh;
+}
+
+.text-1 {
+    font-family: 'Courier New', Courier, monospace;
+   
+}
+/* 
+css button */
+
+.bn47 {
+    position: relative;
+    padding: 1rem 2rem 0.5rem 2.5rem;
+    color: #000000;
+    border: 3px solid black;
+    -webkit-transition: padding 0.3s ease-in-out;
+    transition: padding 0.3s ease-in-out;
+  }
+  
+  .bn47:before {
+    content: "";
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+    border-right: 3px solid #ffffff;
+    border-bottom: 3px solid #ffffff;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .bn47:hover {
+    padding: 0.75rem 2.25rem;
+  }
+  
+  .bn47:hover:before {
+    top: 0;
+    left: 0;
+  }
