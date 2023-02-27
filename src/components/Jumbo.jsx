@@ -11,7 +11,7 @@ const Jumbo = () => {
                    <div className="center">
                    <div className="contain p-5 text-center">
                         <div className="mt-28">
-                        <h1 className="j1-text text-7xl text-white font-bold">hackonix</h1> <br />
+                        <h1 className="j1-text text-7xl text-white font-bold">hackonix Tech Company</h1> <br />
                         <p className="text-white shadow-lg text-1  ">Building your digital dreams into reality with cutting-edge web development services. Transforming your online presence with custom web development and user-focused design.</p>
                         <br /> <br />
                         <a className="bn47 font-bold " href="/">Developers</a>
